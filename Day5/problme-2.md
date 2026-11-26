@@ -26,3 +26,18 @@ Explanation:
 - Alice must remove 10 stones.
 - There is only 1 stone.
 - Alice cannot make a move, so she loses.
+
+
+LeetCode: Stone Removal Game
+
+Problem link: https://leetcode.com/problems/stone-removal-game/?envType=daily-question&envId=2026-11-25
+
+I want you to check whether my Python code is correct for this LeetCode problem.
+
+Please:
+1. Check whether my code is correct or incorrect.
+2. Identify any errors or bugs.
+3. Test important edge cases.
+4. Explain why my code passes or fails.
+5. Do not provide the approach, hints, or corrected code unless I explicitly ask.
+6. Help me understand my mistakes so I can solve the problem myself.
