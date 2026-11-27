@@ -51,6 +51,8 @@ int reverse(int arr[], int start, int end)
 
 int rotation_3(int arr[], int n, int k)
 {
+    k = k % n;
+
     reverse(arr, 0, n - 1);
     reverse(arr, k, n - 1);
     reverse(arr, 0, k - 1);
@@ -58,4 +60,28 @@ int rotation_3(int arr[], int n, int k)
 
 int main()
 {
+    int arr1[] = {1, 2, 3, 4, 5, 6, 7};
+    int arr2[] = {1, 2, 3, 4, 5, 6, 7};
+    int arr3[] = {1, 2, 3, 4, 5, 6, 7};
+
+    int n = 7;
+    int k = 3;
+
+    rotation_1(arr1, n, k);
+    rotation_2(arr2, n, k);
+    rotation_3(arr3, n, k);
+
+    printf("Rotation 1: ");
+    for (int i = 0; i < n; i++)
+        printf("%d ", arr1[i]);
+
+    printf("\nRotation 2: ");
+    for (int i = 0; i < n; i++)
+        printf("%d ", arr2[i]);
+
+    printf("\nRotation 3: ");
+    for (int i = 0; i < n; i++)
+        printf("%d ", arr3[i]);
+
+    return 0;
 }
